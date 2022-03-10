@@ -1,0 +1,40 @@
+.form {
+  width: 80%;
+  max-width: 35rem;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.control {
+  margin: 2em 0;
+}
+
+.control > * {
+  display: block;
+  width: 100%;
+}
+
+.control > label {
+  font-size: 1.1rem;
+}
+
+.control > input {
+  font-size: 1.1rem;
+  padding: 0.2em;
+}
+
+.form button {
+  background: gray;
+  border: none;
+  outline: none;
+  display: block;
+  padding: 0.75em 2em;
+  margin: 0 auto;
+}
+
+.form button:hover {
+  background: #3471eb;
+  color: #fff;
+}
